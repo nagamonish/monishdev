@@ -9,35 +9,61 @@ const Sidebar = () => {
       <img src={Logo} alt="" />
     </a>
 
-    <nav className="nav">
+    <nav className="nav"> 
       <div className="nav__menu">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="#home" className="nav__link"></a>
+            <a href="#home" className="nav__link">
+              <i className="icon-home"></i>
+            </a>
+            
           </li>
 
           <li className="nav__item">
-            <a href="" className="nav__link"></a>
+            <a href="#about" className="nav__link">
+              <i className="icon-user-following"></i>
+            </a>
           </li>
 
           <li className="nav__item">
-            <a href="" className="nav__link"></a>
+            <a href="#services" className="nav__link">
+              <i className="briefcase"></i>
+            </a>
+            
           </li>
 
           <li className="nav__item">
-            <a href="" className="nav__link"></a>
+            <a href="#resume" className="nav__link">
+                <i className="graduation"></i>
+            </a>
+            
           </li>
 
           <li className="nav__item">
-            <a href="" className="nav__link"></a>
+            <a href="#portfolio" className="nav__link">
+                <i className="icon-layers"></i>
+            </a>
+            
           </li>
 
           <li className="nav__item">
-            <a href="" className="nav__link"></a>
+            <a href="blog" className="nav__link">
+              <i className="icon-note"></i>
+            </a>
+          </li>
+
+          <li className="nav__item">
+            <a href="contact" className="nav__link">
+              <i className="icon-bubble"></i>
+            </a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <div className="nav__footer">
+      <span className="copy">&copy; 2022 - 2023. </span>
+    </div>
   </aside>
 
   )
