@@ -27,14 +27,14 @@ const Sidebar = () => {
 
           <li className="nav__item">
             <a href="#services" className="nav__link">
-              <i className="briefcase"></i>
+              <i className="icon-briefcase"></i>
             </a>
             
           </li>
 
           <li className="nav__item">
             <a href="#resume" className="nav__link">
-                <i className="graduation"></i>
+                <i className="icon-graduation"></i>
             </a>
             
           </li>
@@ -62,7 +62,7 @@ const Sidebar = () => {
     </nav>
 
     <div className="nav__footer">
-      <span className="copy">&copy; 2022 - 2023. </span>
+      <span className="copyright">&copy; 2022 - 2023. </span>
     </div>
   </aside>
 
