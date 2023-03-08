@@ -39,9 +39,11 @@ const Testimonials = () => {
       <Swiper className="testimonials__container grid"
         // install Swiper modules
         modules={[Pagination]}
-        spaceBetween={30}
+        spaceBetween={100}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        loop={true}
+        grabCursor={true}
       >
         {data.map(({id, image, title, subtitle, comment}) => {
           return (
