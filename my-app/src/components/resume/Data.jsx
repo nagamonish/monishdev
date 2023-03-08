@@ -3,15 +3,15 @@ const Data = [
         id: 1, 
         category: "education", 
         icon: "icon-graduation",
-        year: "2019 - present", 
-        title: "Academic Degree",
+        year: "2019 - 2023", 
+        title: "High School Diploma",
         desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
     },
     {
         id: 2, 
         category: "education", 
         icon: "icon-graduation",
-        year: "2019 - present", 
+        year: "2023 - 2027", 
         title: "Bachelor's Degree",
         desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
     },
@@ -19,32 +19,32 @@ const Data = [
         id: 3, 
         category: "education", 
         icon: "icon-graduation",
-        year: "2019 - present", 
-        title: "Honors Degree",
+        year: "2027 - 2029", 
+        title: "Masters Degree",
         desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
     },
     {
         id: 4, 
         category: "experience", 
         icon: "icon-briefcase",
-        year: "2019 - present", 
-        title: "Web Designer",
+        year: "2021 - 2022", 
+        title: "UI/UX Designer",
         desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
     },
     {
         id: 5, 
         category: "experience", 
         icon: "icon-briefcase",
-        year: "2019 - present", 
-        title: "Front-End Developer",
+        year: "2022 - present", 
+        title: "Web Developer",
         desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
     },
     {
         id: 6, 
         category: "experience", 
         icon: "icon-briefcase",
-        year: "2019 - present", 
-        title: "Back-End Developer",
+        year: "2022 - present", 
+        title: "Web Developer",
         desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
     }
 ]

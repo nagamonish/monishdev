@@ -66,17 +66,17 @@
 }
 
 .development {
-    width: 90%;
+    width: 80%;
     background-color: rgb(255, 209, 92);
 }
 
 .ui__design {
-    width: 80%;
+    width: 75%;
     background-color: rgb(255, 76, 92);
 }
 
 .programming {
-    width: 60%;
+    width: 90%;
     background-color: rgb(108, 108, 299);
 }
 

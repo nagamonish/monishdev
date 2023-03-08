@@ -13,15 +13,27 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Naga Monish Munagala, web developer from Cary, North Carolina. I have rich experience in website design and building and customization, also I am good at WordPress</p>
+            <p className="about__description">I am Naga Monish Munagala, computer programmer from Cary, North Carolina. I have extensive knowledge in website development and computer programming</p>
             <a href="" className="btn">Download CV</a>
           </div>
 
           <div className="about__skills grid">
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Development</h3>
+                <h3 className="skills__name">Computer Programming</h3>
                 <span className="skills__number">90%</span>
+              </div>
+
+              <div className="skills__bar">
+                <span className="skills__percentage programming"></span>
+              </div>
+            </div>
+
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Web Development</h3>
+                <span className="skills__number">80%</span>
               </div>
 
               <div className="skills__bar">
@@ -32,24 +44,12 @@ const About = () => {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">UI/UX design</h3>
-                <span className="skills__number">80%</span>
+                <h3 className="skills__name">UI/UX Design</h3>
+                <span className="skills__number">75%</span>
               </div>
 
               <div className="skills__bar">
                 <span className="skills__percentage ui__design"></span>
-              </div>
-            </div>
-
-
-            <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">Computer Programming</h3>
-                <span className="skills__number">60%</span>
-              </div>
-
-              <div className="skills__bar">
-                <span className="skills__percentage programming"></span>
               </div>
             </div>
           </div>
