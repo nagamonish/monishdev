@@ -12,7 +12,7 @@ const Contact = () => {
           <p className="contact__details">Don't like forms? Send me an email. </p>
         </div>
 
-         <form action="" className="contact__form">
+        <form action="" className="contact__form">
           <div className="contact__form-group">
             <div className="contact__form-div">
               <input type="text" className="contact__form-input" placeholder='Enter your name' />
@@ -21,18 +21,18 @@ const Contact = () => {
             <div className="contact__form-div">
               <input type="email" className="contact__form-input" placeholder='Enter your email' />
             </div>
+          </div>
 
-            <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Enter your subject' />
-            </div>
+          <div className="contact__form-div">
+            <input id='subject_field ' type="text" className="contact__form-input" placeholder='Enter your subject' />
+          </div>
 
-            <div className="contact__form-div">
-              <textarea name="" id="" cols="30" rows="10" className="contact__form-input" placeholder='Write your message'></textarea>
-            </div>
+          <div className="contact__form-div contact__form-area">
+            <textarea name="" id="" cols="30" rows="10" className="contact__form-input" placeholder='Write your message'></textarea>
           </div>
 
           <button className="btn">Send Message</button>
-         </form>
+        </form>
       </div>
     </section>
   )
