@@ -28,8 +28,8 @@ const Data = [
         category: "experience", 
         icon: "icon-briefcase",
         year: "2021 - 2022", 
-        title: "UI/UX Designer",
-        desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
+        title: "Chief Technology Officer",
+        desc: "Developed the website for a non-profit tutoring organization"
     },
     {
         id: 5, 

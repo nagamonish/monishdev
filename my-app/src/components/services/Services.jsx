@@ -9,19 +9,19 @@ const data = [
     id: 1,
     image: Image1,
     title: "UI/UX design",
-    description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget."
+    description: "Maximizing user engagement and satisfaction with custom UI/UX design solutions"
   }, 
   {
     id: 1,
     image: Image2,
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget."
+    description: "Delivering top-notch web development services with precision and efficiency."
   },
   {
     id: 1,
     image: Image3,
     title: "Computer Programming",
-    description: "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget."
+    description: "Expert programming solutions tailored to your business needs; delivered with precision."
   }
 ]
 
