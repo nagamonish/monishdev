@@ -27,7 +27,7 @@ const Data = [
         id: 4, 
         category: "experience", 
         icon: "icon-briefcase",
-        year: "2021 - 2022", 
+        year: "2022 - present", 
         title: "Chief Technology Officer",
         desc: "Developed the website for a non-profit tutoring organization"
     },
@@ -35,17 +35,17 @@ const Data = [
         id: 5, 
         category: "experience", 
         icon: "icon-briefcase",
-        year: "2022 - present", 
-        title: "Web Developer",
-        desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
+        year: "2023 - present", 
+        title: "Programming Tutor",
+        desc: "Tutored Python programming language to people of various experience levels"
     },
     {
         id: 6, 
         category: "experience", 
         icon: "icon-briefcase",
         year: "2022 - present", 
-        title: "Web Developer",
-        desc: "Lorem ipsum dolor sit amet quo ei simul congue exerci   ad nec admodum perfecto."
+        title: "UI/UX Designer",
+        desc: "Working on designing mockup designs for possible app ideas"
     }
 ]
 
