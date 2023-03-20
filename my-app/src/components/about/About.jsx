@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from './AboutBox';
+import myResume from '../resume_pdf/Updated_Resume.pdf'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I am Naga Monish Munagala, computer programmer from Cary, North Carolina. I have extensive knowledge in website development and computer programming</p>
-            <a href="#" className="btn">View my Resume</a>
+            <a href={myResume} target="_blank" className="btn">View my Resume</a>
           </div>
 
           <div className="about__skills grid">
