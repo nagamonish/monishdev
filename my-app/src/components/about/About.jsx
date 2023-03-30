@@ -2,7 +2,7 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from './AboutBox';
-import myResume from '../resume_pdf/Updated_Resume.pdf'
+import myResume from '../resume_pdf/Naga_Monish_Munagala_Resume.pdf'
 
 const About = () => {
   return (
